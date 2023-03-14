@@ -8,12 +8,6 @@
     "on Sunday",
     "before 4am on Monday"
   ],
-  packageRules: [
-    {
-      matchManagers: ["npm"],
-      enabled: true
-    }
-  ],
   vulnerabilityAlerts: {
     stabilityDays: 0,
     prCreation: 'immediate',
