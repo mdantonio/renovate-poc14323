@@ -4,6 +4,10 @@
   "description": "PoC Repository",
   "dependencies": {
     "webpack": "^5.75.0"
-  }
+  },
+  "main": "index.js",
+  "repository": "https://github.com/mdantonio/renovate-poc14323.git",
+  "author": "None",
+  "license": "MIT",
+  "private": true
 }
-
