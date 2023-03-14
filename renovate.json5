@@ -1,0 +1,15 @@
+{
+  $schema: "https://docs.renovatebot.com/renovate-schema.json",
+  extends: [
+    "config:base"
+  ],
+  schedule: [
+    "after 4am on Saturday",
+    "on Sunday",
+    "before 4am on Monday"
+  ],
+  vulnerabilityAlerts: {
+    stabilityDays: 0,
+    prCreation: 'immediate',
+  }
+}
